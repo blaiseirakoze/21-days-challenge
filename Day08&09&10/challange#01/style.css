@@ -72,3 +72,13 @@ body {
   text-align: center;
   padding: 3rem 0;
 }
+
+@media (max-width: 600px) {
+  .row {
+    display: block;
+  }
+
+  .col + .col {
+    margin: 0;
+  }
+}
